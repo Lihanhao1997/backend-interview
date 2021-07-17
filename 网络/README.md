@@ -322,7 +322,7 @@ AJAX,Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）, 是与�
 
 1、TCP 阻塞如何解决。
 
-### 32.HTTPS建立连接详细过程。  （）
+### 32.HTTPS建立连接详细过程
 
 1.客户端发起https连接
 浏览器去到DNS服务器获取此url对应的ip，然后客户端连接上服务端的443端口，将此请求发送给到服务端，此时客户端同时将自己支持的加密算法带给服务端。  
@@ -337,5 +337,6 @@ AJAX,Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）, 是与�
 服务端收到客户端传回来的用随机数加密的信息后，先用私钥解密随机数，然后用解密得到的随机数解密握手信息，获取握手信息和握手信息的hash值，计算自己发送的握手信息的hash值，与客户端传回来的进行对比验证。
 
 5、客户端验证服务端发送回来的握手信息，完成握手
+
 https://blog.csdn.net/qq_24601199/article/details/104362401?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162649258416780271517685%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162649258416780271517685&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-104362401.first_rank_v2_pc_rank_v29&utm_term=HTTPS%E7%9A%84%E8%BF%9E%E6%8E%A5%E8%BF%87%E7%A8%8B&spm=1018.2226.3001.4187
 
